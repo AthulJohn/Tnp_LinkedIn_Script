@@ -11,7 +11,14 @@ Linkedin = {
     totalRequestsSent: 0,
     // set to false to skip adding note in invites
     addNote: true,
-    note: "Hey {{name}}, we at Training & Placement Cell, MACE are looking forward to connecting with you!",
+    //to HR: uncomment below line
+    //note:"Hey {{name}}, Training and Placement Cell, MACE wishes to connect to your professional network. MACE stands among the top engineering colleges in Kerala, moulding some of the best technocrats and entrepreneurs. Extending a cordial invitation to participate in our Campus Recruitment programmes. Looking forward to your participation in our placement drives. Hope you have a good day!",
+    // To Students:
+    //note:"Hey {{name}}, Training and Placement Cell,MACE wishes to connect to your professional network. We are extremely dedicated to attracting recruiters to MACE. Hope you have a beneficial connection with us.",
+    // To Professionals
+    //note:"Hi {{name}}, Training and Placement Cell,MACE wishes connect to your professional network. MACE stands among the top engineering colleges in Kerala, moulding some of the best technocrats and entrepreneurs. Hope to have a great connection with you.",
+    //Old note: below line
+    //note: "Hey {{name}}, we at Training & Placement Cell, MACE are looking forward to connecting with you!",
   },
   init: function (data, config) {
     console.info("INFO: script initialized on the page...");
